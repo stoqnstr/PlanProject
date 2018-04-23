@@ -51,14 +51,16 @@ if ($_SESSION['login']!="TRUE"){
 		<div class="  con1"><br>
 			Инструкци за приготвяне:
 		​	<textarea id="steps" rows="20" cols="50" name="instr" fixed required></textarea><br>
-			<input type="file" name="image">
+		<input type="button" id="loadFile" value="Добави снимка" onclick="document.getElementById('file').click();" />
+		<input type="file" style="display:none;" id="file" name="file"/>
+
 			<input type="submit" value="Запази">
 		</div>
 		<div class=" con2">
 			Съставка:
 			<input type="button" id="add_ingr()" onclick="addIngr()" value=" + "> 
 			<br>
-			<div id=ingrs>
+				<div id=ingrs>
 				<input type="text" name="ingr1" placeholder="1" required> 
 			</div>
 		</div>
