@@ -7,7 +7,7 @@ if ($_SESSION['login']!="TRUE"){
 <html>
 
 <head>
-<title>Добавяне на репта</title>
+<title>Добавяне на рецепта</title>
 <link rel="shortcut icon" type="image/x-icon" href="img/tabicon.ico">
 	<meta  http-equiv="content-type" content="text/html; charset=UTF-8" />
 	<link rel="stylesheet" type="text/css" href="style.css">
