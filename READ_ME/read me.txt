@@ -1,0 +1,21 @@
+
+
+Creation of database link
+
+http://localhost/Cookbook/create_db/create_dbt.php
+
+----------------------------------------------
+
+Insertion for the database:
+
+http://localhost/CookBook/create_db/insertdb.php
+
+----------------------------------------------
+Login
+username: admin
+password: admin
+	Þ
+username: admin2
+password: admin2
+
+
